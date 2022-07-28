@@ -176,6 +176,13 @@ Load all default data into base:
 Access `localhost:8000/swagger` or `localhost:8000/admin`
 
 
+> Django Admin Access
+
+**Url**: `http://localhost:8000/admin/login/?next=/admin/`
+**User**: `danilo` 
+**Login**: `danilonewtrue@gmail.com` 
+**Password**: `123456`
+
 # HOW TO RUN LOCAL TEST
 
 We use [pytest](https://docs.pytest.org/en/6.2.x/contents.html) to perform unit and application integration tests.
