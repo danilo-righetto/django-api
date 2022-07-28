@@ -20,6 +20,8 @@
 
 The "django-api" project aims to document the learning in developing API's using Django.
 
+The project is based on the [Alura](https://www.alura.com.br/) course called ["Course of API with Django 3: Django Rest Framework"](https://cursos.alura.com.br/course/api-django-3-rest-framework)
+
 
 ## WHAT IS THE FINAL GOAL OF THE PRODUCT?
 
@@ -140,6 +142,17 @@ First create and edit the `.env` file with the following command:
 
 ```sh
   $ cp .env.example .env
+```
+
+Running the server locally
+```sh
+  $ python manage.py runserver
+```
+
+To install Django Rest Framework run:
+```sh
+  $ pip install djangorestframework
+  $ pip install markdown
 ```
 
 Start the containers by running the command:
