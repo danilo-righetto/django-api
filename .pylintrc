@@ -1,0 +1,17 @@
+[MASTER]
+disable=
+    C0114, #missing-module-docstring
+    C0115, #missing-class-docstring
+    C0116, #missing-function-docstring
+    C0103, #snack case
+    R0801, #similar lines
+    E1101, #false positives in models classes
+    R0201, #Method should be a function/no "self" used
+    W0613, #Unused arguments - (The django signals cause this linting error)
+    W0201, #attribute declared out of the init method
+    C0123, #"use isinstance istead of type" - do not work for every scenario.
+
+ignore=docker-compose.yml,manage.py,requirements.txt,venv,cloudformations,CHANGELOG.md,README.md,enums.py,image_documentation.py,swagger_gallery_doc.py
+
+[DESIGN]
+max-parents=13

@@ -1,0 +1,27 @@
+# ignore .idea
+.idea/
+
+# ignore venv
+venv
+
+# ignore db.sqilite3
+db.sqlite3
+
+# ignore .pyc
+*.pyc
+
+# ignore. env
+.env
+
+# ignore coverage
+.coverage
+htmlcov/
+
+# ignore django static files
+static/
+
+coverage.xml
+
+.vscode
+
+.DS_Store
